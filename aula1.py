@@ -1,10 +1,21 @@
-op=0
-print(op)
-while(op==0):
-    print('oii')
-    
-    op=int(input('bem vindo ao jogo ppt: \nSelecione uma opçao: \n[1]- jogar contra o computador\n[2] -jogar contra outro jogador\n[3] -sair do jogo\n print digite a opçao: '))
-    
-x= input('Digite a opção:')
-y= input('Digite a opção:')
-z= input('Digite a opção:')
+from random import randint
+from time import sleep
+ct= ("computador", 'outro jogador')
+
+op= ('pedra', 'papel', 'tesoura')
+pc = randint(0,2)
+
+print('~'*10)
+print('escolha um adversario: \n[0] - computador\n[1] - outro jogador')
+jogador= print(int(input('qual sua opçao?: ')))
+print('~'*10)
+sleep(1)
+print('Bem vindo ao ppt\nescolha uma opçao: \n[0] - pedra\n[1] - papel\n[2] - tesoura')
+print('~'*10)
+sleep(1)
+
+if ct==0: #jogar contra o pc
+    if op==0: 
+        
+    elif op==1:
+    elif op==2:
