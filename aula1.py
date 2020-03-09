@@ -130,7 +130,7 @@ while escolha != 4:
     pcvscpu()
     
 
-  else:
-      print('OPÇAO INVALIDA!!')
+  elif escolha !=0 and escolha !=1 and escolha !=2 and escolha !=4:
+    print('OPÇAO INVALIDA!!')
 else:
   print('volte sempre!!')
